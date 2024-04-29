@@ -238,113 +238,113 @@ section.about {
     color: #dc5836;
 }
 
-.row > .col-sm-2:nth-child(2) .skills__box:hover {
+.row > .col-md-2:nth-child(2) .skills__box:hover {
     border: 2px solid #4faade;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(2) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(2) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(2) .skills__box:hover i {
+.row > .col-md-2:nth-child(2) .skills__box:hover i {
     color: #3676b8;
 }
 
-.row > .col-sm-2:nth-child(3) .skills__box:hover {
+.row > .col-md-2:nth-child(3) .skills__box:hover {
     border: 2px solid #fadb4d;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(3) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(3) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(3) .skills__box:hover i {
+.row > .col-md-2:nth-child(3) .skills__box:hover i {
     color: #d6bc3e;
 }
 
-.row > .col-sm-2:nth-child(4) .skills__box:hover {
+.row > .col-md-2:nth-child(4) .skills__box:hover {
     border: 2px solid #ed7e6f;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(4) .skills__box:hover .skills__name{
+.row > .col-md-2:nth-child(4) .skills__box:hover .skills__name{
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(4) .skills__box:hover i {
+.row > .col-md-2:nth-child(4) .skills__box:hover i {
     color: #e73a22;
 }
 
-.row > .col-sm-2:nth-child(5) .skills__box:hover {
+.row > .col-md-2:nth-child(5) .skills__box:hover {
     border: 2px solid #c09fea;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(5) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(5) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(5) .skills__box:hover i {
+.row > .col-md-2:nth-child(5) .skills__box:hover i {
     color: #7440ba;
 }
 
-.row > .col-sm-2:nth-child(6) .skills__box:hover {
+.row > .col-md-2:nth-child(6) .skills__box:hover {
     border: 2px solid #6bb9d2;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(6) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(6) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(6) .skills__box:hover i {
+.row > .col-md-2:nth-child(6) .skills__box:hover i {
     color: #7ad9f9;
 }
 
-.row > .col-sm-2:nth-child(7) .skills__box:hover {
+.row > .col-md-2:nth-child(7) .skills__box:hover {
     border: 2px solid #fcfcfc;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(7) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(7) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
 
 
-.row > .col-sm-2:nth-child(8) .skills__box:hover {
+.row > .col-md-2:nth-child(8) .skills__box:hover {
     border: 2px solid #fcfcfc;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(8) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(8) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(8) .skills__box:hover i {
+.row > .col-md-2:nth-child(8) .skills__box:hover i {
     color: #7ad9f9;
 }
 
-.row > .col-sm-2:nth-child(9) .skills__box:hover {
+.row > .col-md-2:nth-child(9) .skills__box:hover {
     border: 2px solid #fcfcfc;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.43);
 }
 
-.row > .col-sm-2:nth-child(9) .skills__box:hover .skills__name {
+.row > .col-md-2:nth-child(9) .skills__box:hover .skills__name {
     color: var(--texto);
     font-family: var(--texto-principal);
 }
 
-.row > .col-sm-2:nth-child(9) .skills__box:hover i {
+.row > .col-md-2:nth-child(9) .skills__box:hover i {
     color: #ffffff;
 }
 
@@ -590,7 +590,7 @@ section.formcontato {
 }
 
 .formcontato__input {
-    width: 60%;
+    width: 100%;
     background: #ffffffec;
     opacity: 90%;
     padding: 7px;
@@ -615,7 +615,7 @@ section.formcontato {
 }
 
 .formcontato__textarea {
-    width: 60%;
+    width: 100%;
     background: #ffffffec;
     opacity: 90%;
     padding: 7px;
@@ -632,7 +632,7 @@ section.formcontato {
 /* --boton enviar */
 .formcontato__botao {
     cursor: pointer;
-    width: 60%;
+    width: 100%;
     height: 40px;
     border-radius: 1px;
     font-family: var(--texto-normal);
@@ -674,7 +674,10 @@ section.footer {
     }
 
     .experience__img {
-        height: 250px;
+        height: 140px;
+    }
+    .academic__courses{
+        flex-wrap: nowrap;
     }
 
 }
@@ -683,43 +686,32 @@ section.footer {
     .formcontato__contacto {
         width: 90%;
     }
+ 
 
 }
 
 /*Tablet*/
 @media (max-width: 900px) {
-
-    .title__profile {
-
-        width: 300px;
-        height: 250px;
-
-
-    }
+   
+    /* .title__profile {
+        width: 250px;
+        height: 200px;
+    } */
 
     /* Menú */
     .menu__list {
         gap: 10px;
     }
 
-    .menu__header {
-        width: 20%;
-    }
-
+   
     /*title*/
 
-    .title__bio {
-        max-width: 450px;
-    }
-
-    .title__subsection {
-        max-width: 500px;
-    }
+  
 
     /* sobre mi */
-    .about__paragraph {
-        max-width: 90%;
-    }
+   .about__container{
+    width: 90%;
+   }
 
     /*Skills*/
     .skills__box {
@@ -732,20 +724,28 @@ section.footer {
         font-size: 12px;
     }
 
-    /*Hobbies*/
-
+ 
 
     /*Formación Académica*/
-    .academic__courses__box {
-        max-width: 250px;
-        max-height: 250px;
+    /* .academic__courses__box {
+        max-width: 210px;
+        max-height: 400px;
+    } */
+    .academic__courses__item__title{
+        font-size: 16px;
     }
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+    }
+    /* .academic__courses__item__img{
+        width: 100px;
+    } */
 
     /*Experiencia Profesional*/
     .experience__box {
         margin: 40px auto;
-        width: 80%;
-        height: 400px;
+        width: 90%;
+        height: 500px;
         border-radius: 6px;
         background: #ffffff33;
         backdrop-filter: blur(30px);
@@ -759,12 +759,10 @@ section.footer {
     .experience__img {
         border-radius: 6px;
         height: 250px;
-        order: 1;
+       
     }
 
-    .experience__info {
-        order: 2;
-    }
+   
 
     /* contacto */
     .formcontato__contacto {
@@ -968,6 +966,12 @@ section.footer {
         width: 100%;
     }
 
+    .academic__title{
+        text-align: center;
+    }
+    .academic__courses{
+        flex-wrap: wrap;
+    }
     /*Experiencia Profesional*/
     .experience__box {
         width: 90%;
@@ -975,12 +979,34 @@ section.footer {
 
     /*Contacto*/
     section.formcontato {
-        width: 90%;
+        width: 100%;
     }
 
     /*proyectos*/
     .experience__img {
-        height: 150px;
+        height: 140px;
     }
+
+    .formcontato__contacto {
+        width: 100%;
+    }
+    .formcontato__subtext{
+        text-align: center;
+    }
+    .formcontato__subtext2{
+        text-align: center;
+    }
+    .formcontato__contacto{
+        width: 95%;
+    }
+    .formcontato__input{
+        width: 95%;
+    }
+    .formcontato__textarea{
+        width: 95%;
+    }
+.formcontato__botao{
+    width: 95%;
+}
 
 }
