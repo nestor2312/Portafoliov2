@@ -437,8 +437,8 @@ section.academic {
 }
 
 .experience__box {
-    margin: 30px 30PX;
-    height: 500px;
+    margin: 40px 10PX;
+    height: 400px;
     border-radius: 6px;
     background: #ffffff12;
     backdrop-filter: blur(30px);
@@ -571,6 +571,7 @@ section.formcontato {
 }
 
 .formcontato__form {
+    width: 350px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -975,11 +976,14 @@ section.footer {
     /*Experiencia Profesional*/
     .experience__box {
         width: 90%;
+        height: 360px;
+        /* margin: 40px 10PX;
+        height: 400px; */
     }
 
     /*Contacto*/
     section.formcontato {
-        width: 100%;
+        width: 103%;
     }
 
     /*proyectos*/
@@ -990,20 +994,20 @@ section.footer {
     .formcontato__contacto {
         width: 100%;
     }
+    .part1{
+        display: flex;
+       
+    }
     .formcontato__subtext{
+        font-size: 30px;
         text-align: center;
     }
     .formcontato__subtext2{
+        font-size: 22px;
         text-align: center;
     }
-    .formcontato__contacto{
-        width: 95%;
-    }
-    .formcontato__input{
-        width: 95%;
-    }
-    .formcontato__textarea{
-        width: 95%;
+    .formcontato__form{
+        width: 100%;
     }
 .formcontato__botao{
     width: 95%;
