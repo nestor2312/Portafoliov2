@@ -704,7 +704,7 @@ section.footer {
         gap: 10px;
     }
 
-   
+  
     /*title*/
 
   
@@ -787,13 +787,51 @@ section.footer {
 /*Mobile*/
 @media (max-width: 426px) {
 
-    .title__profile {
-        margin-top: 10px;
-        width: 80px;
-        height: 80px;
+    .navbar-brand{
+        text-align: center;
     }
 
+    .title__profile {
+        visibility: hidden;
+        display: none;
+    }
+    .navbar-nav{
+        margin-bottom: auto!important;
 
+    }
+    .nav-link:hover {
+        border-radius: 3px;
+        border-bottom: 0px solid white;
+        color: var(--texto);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    
+    .navbar .nav {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--cor-de-fundo);
+        width: 100%;
+        z-index: 2;
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+    }
+    
+    .navbar .nav.visible {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .navbar .nav-item:hover {
+        background: rgba(220, 220, 220, 0.158);
+    }
 
     /* Menu */
     .menu__header {
@@ -834,7 +872,6 @@ section.footer {
     .nav {
         opacity: 0;
         visibility: hidden;
-
         flex-direction: column;
         align-items: end;
         gap: 15px;
@@ -848,20 +885,20 @@ section.footer {
         transition: 0s ease;
     }
 
-    .nav.visible {
+    /* .nav.visible {
         position: fixed;
         display: flex;
         transition: 0.2s ease;
         opacity: 1;
         visibility: visible;
-    }
+    } */
 
-    .nav-item:hover {
+    /* .nav-item:hover {
         border-radius: 0px;
         padding: 0px;
         border: 0px;
         color: var(--texto);
-    }
+    } */
 
     .menu__list {
         padding-left: 0;
@@ -873,14 +910,15 @@ section.footer {
         font-family: var(--texto-titulos);
     }
 
-    .menu__list__item:nth-child(5) {
+    /* .menu__list__item:nth-child(5) {
         padding-right: 10px;
-    }
+    } */
 
     li.nv {
         margin: 5px auto 10px auto;
-        width: 95%;
-        padding: 10px;
+        width: 100%;
+        text-align: center;
+        padding: 10px 40px 10px 40px;
         border-radius: 3px;
         border: 1px solid gainsboro;
     }
@@ -890,7 +928,7 @@ section.footer {
         background: rgba(220, 220, 220, 0.158);
     }
 
-    li.nv2 {
+    /* li.nv2 {
         display: flex;
         justify-content: flex-start;
         font-size: 10px;
@@ -903,7 +941,7 @@ section.footer {
     li.nv2:hover {
         border: 2px solid gainsboro;
         background: rgba(220, 220, 220, 0.158);
-    }
+    } */
   
     #close {
         font-size: 24px;

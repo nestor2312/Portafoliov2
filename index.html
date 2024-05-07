@@ -66,27 +66,30 @@
                 </ul>
 
             </nav> -->
+
             <nav class="navbar navbar-expand-sm ">
-
                 <a class="navbar-brand" href="#">Nestor Canal</a>
-
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" id="inicio">
-                        <a class="nav-link" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item" id="Sobre_mi">
-                        <a class="nav-link" href="#sobre-mi">Sobre mi</a>
-                    </li>
-                    <li class="nav-item" id="Skills">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item" id="Formación">
-                        <a class="nav-link" href="#formacion">Formación</a>
-                    </li>
-                    <li class="nav-item" id="Proyectos">
-                        <a class="nav-link" href="#xp">Proyectos</a>
-                    </li>
-                </ul>
+                <button class="menu-toggle">☰</button>
+                <div class="navbar-collapse nav" id="navbarNav">
+                    <button id="close">X</button>
+                    <ul class="navbar-nav ml-auto navbar-nav menu__list">
+                        <li class="nav-item nv" id="inicio">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item nv" id="Sobre_mi">
+                            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item nv" id="Skills">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item nv" id="Formación">
+                            <a class="nav-link" href="#formacion">Formación</a>
+                        </li>
+                        <li class="nav-item nv" id="Proyectos">
+                            <a class="nav-link" href="#xp">Proyectos</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
 
 
@@ -292,8 +295,8 @@
                         <div class="experience__box">
                             <img class="experience__img" src="assets/encriptador_web.png">
                             <div class="experience__info">
-                                <h2 class="experience__title">Encriptador de texto</h2>
-                                <h3 class="experience__text">Challenge Alura Codificador </h3>
+                                <h3 class="experience__title">Encriptador de texto</h3>
+                                <h4 class="experience__text">Challenge Alura Codificador </h4>
                                 <div class="experience__description">
                                     <!-- Pon el enlace del proyecto en Github o GithubPages -->
                                     <span class="experience__repo"><a href="https://github.com/nestor2312/encriptador"
@@ -310,8 +313,8 @@
                         <div class="experience__box">
                             <img class="experience__img" src="assets/inicio.png">
                             <div class="experience__info">
-                                <h2 class="experience__title">APP Reserva Tickets</h2>
-                                <h3 class="experience__text">Diseño</h3>
+                                <h3 class="experience__title">APP Reserva Tickets</h3>
+                                <h4 class="experience__text">Diseño</h4>
                                 <div class="experience__description">
                                     <span class="experience__demo"><a
                                             href="https://www.figma.com/proto/L4DnsKenbIjfkVwMNAGzVG/cine-compra-tikets?type=design&node-id=182-50&t=K04jd0LFREUN3F6K-0&scaling=scale-down&page-id=181%3A2&starting-point-node-id=182%3A50"
@@ -325,8 +328,8 @@
                         <div class="experience__box">
                             <img class="experience__img" src="assets/d2.png">
                             <div class="experience__info">
-                                <h2 class="experience__title">Sitio web responsive <br> menu restaurante</h2>
-                                <h3 class="experience__text">Diseño</h3>
+                                <h3 class="experience__title">Sitio web responsive <br> menu restaurante</h3>
+                                <h4 class="experience__text">Diseño</h4>
                                 <div class="experience__description">
                                     <!-- Pon el enlace del proyecto en Github o GithubPages -->
                                     <span class="experience__repo"><a
@@ -368,28 +371,28 @@
             <section class="formcontato" id="contacto">
 
                 <div class="formcontato__contacto">
-                    <div class="row">
-                        <div class=" part1">
-                            <h2 class="formcontato__subtext">¿Quieres contactarme?</h2>
-                            <h2 class="formcontato__subtext2">Complete el siguiente formulario y me pondré en contacto
-                                con
-                                usted lo antes <br>  posible.</h2>
-                                <h4 class="formcontato__subtext2">Tambien puede contactarme en redes sociales.</h4>
-                        </div>
-                        <div class="col">
-                            <div class="formcontato__text">
-                                <form class="formcontato__form" name="form">
-                                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                                    <textarea class="formcontato__textarea" rows="7" cols="40" id="mensagem"
-                                        name="Mensaje" placeholder="Mensaje"></textarea>
-                                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                                </form>
-                            </div>
-                        </div>
 
+                    <div class=" part1">
+                        <h2 class="formcontato__subtext">¿Quieres contactarme?</h2>
+                        <h2 class="formcontato__subtext2">Complete el siguiente formulario y me pondré en contacto
+                            con
+                            usted lo antes <br> posible.</h2>
+                        <h4 class="formcontato__subtext2">Tambien puede contactarme en redes sociales.</h4>
                     </div>
+                    <div class="col">
+                        <div class="formcontato__text">
+                            <form class="formcontato__form" name="form" action="enviar.php" method="post">
+                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                                <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                                <textarea class="formcontato__textarea" rows="7" cols="40" id="mensagem" name="Mensaje"
+                                    placeholder="Mensaje"></textarea>
+                                <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                            </form>
+                        </div>
+                    </div>
+
+
 
 
                 </div>
