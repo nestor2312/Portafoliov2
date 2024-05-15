@@ -97,6 +97,7 @@ section.title {
 }
 
 .title__bio2{
+    margin-left: 3rem;
     font-family: var(--texto-menu);
     font-weight: 800;
     color: var(--texto);
@@ -129,6 +130,7 @@ li i{
     color: var(--texto);
     font-family: var(--texto-menu);
 }
+
 
 .title__network {
     display: flex;
@@ -980,7 +982,7 @@ section.footer {
     /*Titulo*/
     .title__bio {
         font-size: 23px;
-        text-align: center;
+        text-align: left;
     }
 
     .title__container {
@@ -988,8 +990,18 @@ section.footer {
     }
 
     .title__subsection {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
+    }
+
+    .title__bio2{
+        margin-left: 0rem;
+       
+    }
+    .mv{
+       display: none!important;
+       visibility: hidden!important;
+      
     }
 
     /*Sección sobre mi*/
