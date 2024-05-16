@@ -1,11 +1,11 @@
 :root {
-    --cor-de-fundo: linear-gradient(180deg, #000428 0%, #004E92 100%);
+    --cor-de-fundo: linear-gradient(180deg, #000428 0%, #004E92 90%);
     --texto: #ededed;
-    --titulo: #8afbea;
+    --titulo: #98FAEC;
     --titulo2: #1f4d90;
     --color2: linear-gradient(180deg, #4ee89ed7 30%, #02507d 100%);
     --color: linear-gradient(180deg, #4ee89ea4 20%, #09537e 100%);
-    --color3: #02223f;
+    --color3: #292f36;
    
     /* --texto-titulos:'Stoked', sans-serif; */
     
@@ -115,7 +115,7 @@ section.title {
 span{
     font-family: 'Stoked', sans-serif;
     text-transform: uppercase;
-    color: #00fed8d9 ;
+    color: #12F7D6 ;
     /* text-shadow: 1px 1px 1px #ffffffe0; */
     font-weight: 300;
 }
@@ -201,9 +201,9 @@ section.about {
     width: 150px;
     height: 150px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #ffffff33;
     backdrop-filter: blur(30px);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    border: 2px solid #ffffff1a;
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
     margin: 20px auto;
     display: flex;
@@ -458,8 +458,9 @@ section.about {
 
 .experience__description {
     display: flex;
+    margin-top: 20px;
     justify-content: space-evenly;
-    gap: 5px;
+    gap: 10px;
 }
 
 .experiencia__botao--repo {
@@ -472,7 +473,7 @@ section.about {
     color: var(--texto);
     border: none;
     border-radius: 10px;
-    border: 1px solid var(--texto);
+    border: 1px solid var(--titulo);
     transition: 1s;
     max-width: 200px;
 }
@@ -487,7 +488,7 @@ section.about {
     color: var(--color3);
     border: none;
     border-radius: 10px;
-    border: 2px solid var(--color3);
+    border: 1px solid var(--color3);
     transition: 1s;
 }
 
@@ -501,7 +502,7 @@ section.about {
     color: var(--texto);
     border: none;
     border-radius: 10px;
-    border: 1px solid var(--texto);
+    border: 1px solid var(--titulo);
     transition: 1s;
 }
 
@@ -512,15 +513,14 @@ section.about {
     background: #c8c8c8;
     color: var(--color3);
     border: none;
-    border: 2px solid var(--color3);
+    border: 1px solid var(--color3);
     transition: 1s;
 }
 
 /*Contacto*/
 
 section.formcontato {
-    margin: 40px auto;
-    
+    margin: 40px auto;  
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.064);
     backdrop-filter: blur(30px);
@@ -618,7 +618,7 @@ section.formcontato {
     cursor: pointer;
     width: 100%;
     height: 40px;
-    border-radius: 1px;
+    border-radius: 6px;
     font-family: var(--texto-normal);
     font-weight: bold;
     background: var(--color3);
@@ -832,6 +832,9 @@ section.footer {
     }
 
     .menu-toggle {
+        background: var(--texto);
+        border: 1px solid var(--titulo);
+        border-radius: 6px 3px 6px 3px;
         display: flex;
         position: absolute;
         top: 2vh;
@@ -846,6 +849,12 @@ section.footer {
         cursor: pointer;
     }
     #close {
+        top: 2vh;
+        right: 10px;
+        width: 35px;
+        background: var(--texto);
+        border: 1px solid var(--titulo);
+        border-radius: 6px 3px 6px 3px;
         display: block;
         position: fixed;
         cursor: pointer;
