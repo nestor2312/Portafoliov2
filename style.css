@@ -654,14 +654,19 @@ section.footer {
 
 
 @media (max-width: 1440px) {
+    section.formcontato {
+        width: 95%;
+       
+    
+    }
     .formcontato__contacto {
-        width: 90%;
+        width: 60%;
     }
 
     .formcontato__subtext2{
         font-family: var(--texto-normal);
         line-height: 1.5;
-        width: 50%;
+        width: 90%;
     }
 
     .experience__img {
