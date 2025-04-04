@@ -592,7 +592,7 @@ section.formcontato {
 .formcontato__subtext2{
     font-family: var(--texto-normal);
     line-height: 1.5;
-    width: 50%;
+   
 }
 
 .formcontato__input::placeholder {
@@ -656,6 +656,12 @@ section.footer {
 @media (max-width: 1440px) {
     .formcontato__contacto {
         width: 90%;
+    }
+
+    .formcontato__subtext2{
+        font-family: var(--texto-normal);
+        line-height: 1.5;
+        width: 50%;
     }
 
     .experience__img {
